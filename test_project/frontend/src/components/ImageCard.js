@@ -18,10 +18,10 @@ export default class ImageCard extends Component {
       <Card
         align="center"
         key={this.props.id}
-        style={{ marginTop: 20, marginLeft: 20 }}
+        style={{ marginTop: 20, marginLeft: 30 }}
       >
         <CardActionArea>
-          <img src={this.props.imageUrl} style={{ height: 250, width: 300 }} />
+          <img src={this.props.imageUrl} style={{ height: 200, width: 250 }} />
         </CardActionArea>
         <CardActions style={{ justifyContent: "center" }}>
           <Button
